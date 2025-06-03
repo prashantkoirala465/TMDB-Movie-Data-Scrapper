@@ -118,7 +118,7 @@ def main():
                                      'production_companies',
                                      'production_countries'])
     moviesDf.to_csv(dbFileName, mode='a', encoding='utf-8')
-    for year in range(1873, 2020):
+    for year in range(1874, 2024):
         getMoviesByYear(year, dbFileName)
 
 
